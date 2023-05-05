@@ -4,18 +4,21 @@ header{
 
 aside{
     width: 68px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    color: #FFFFFF; 
 }
 
-main{
-    width: calc(100% - 68px)
+.my_logo-small{
+    width: 45px;
+}
+
+.fa-bell{
+    color: #ff8c00;
 }
 
 @media screen and (min-width:768px) {
     aside{
         width: 150px;
-    }
-
-    main{
-        width: calc(100% - 150px);
     }
 }
