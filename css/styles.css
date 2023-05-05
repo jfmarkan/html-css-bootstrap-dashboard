@@ -1,0 +1,29 @@
+header{
+    height: 70px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: .75rem auto;
+    color: #d12222
+}
+
+aside{
+    background-image: url('../img/sidebar-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #051e34;
+}
+
+.my_side-navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
