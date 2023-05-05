@@ -2,11 +2,20 @@ header{
     height: 70px;
 }
 
+main header{
+    background-color: #1b72e8;
+}
+
 aside{
     width: 68px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
     color: #FFFFFF; 
+    height: calc(100vh - 70px);
+}
+
+main{
+    width: calc(100% - 68px);
 }
 
 .my_logo-small{
@@ -21,4 +30,9 @@ aside{
     aside{
         width: 150px;
     }
+
+    main{
+        width: calc(100% - 150px);
+    }
 }
+

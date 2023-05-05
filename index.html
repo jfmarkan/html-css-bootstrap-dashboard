@@ -58,32 +58,44 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <div class="row">
-                <div class="col-1">
-                    <aside>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white">
-                                    <i class="fa-solid fa-gear"></i>
-                                    Disabled
-                                </a>
-                            </li>
-                        </ul>
-                    </aside>
-                </div>
-                <div class="col-11">
+        <div class="d-flex">
+            <aside>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-link">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-link">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            Stats
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-signal"></i>
+                            Signals
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            Admin
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <main>
+                <header>
+
+                </header>
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col-lg-10">
+                        <div class="col-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card">
@@ -111,7 +123,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-2">
+                        <div class="col-12 col-lg-3">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card">
@@ -141,8 +153,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </main>
+            </main>
+        </div>
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
