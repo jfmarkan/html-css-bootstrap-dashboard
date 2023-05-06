@@ -10,8 +10,8 @@ aside{
     width: 68px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
-    color: #FFFFFF; 
-    height: calc(100vh - 70px);
+    color: #FFFFFF;
+
 }
 
 main{
@@ -20,6 +20,14 @@ main{
 
 .my_logo-small{
     width: 45px;
+}
+
+.my_class-icon{
+    width: 30px;
+}
+
+.my_nav-text{
+    display: none;
 }
 
 .fa-bell{
@@ -34,7 +42,8 @@ main{
     main{
         width: calc(100% - 150px);
     }
-}
 
-<i class="fa-solid fa-trash"></i>
-<i class="fa-solid fa-pen"></i>
+    .my_nav-text{
+        display: inline-block;
+    }
+}
