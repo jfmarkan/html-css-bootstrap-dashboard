@@ -1,21 +1,22 @@
-header{
+.my_page-header{
     height: 70px;
+    z-index: 5;
 }
 
-main header{
-    background-color: #1b72e8;
+.my_page-main{
+    padding-top: 70px;
 }
 
-aside{
+.my_main-content{
+    padding-left: 68px
+}
+
+.my_side-bar{
     width: 68px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
     color: #FFFFFF;
-
-}
-
-main{
-    width: calc(100% - 68px);
+    height: calc(100vh - 70px);
 }
 
 .my_logo-small{
@@ -23,11 +24,7 @@ main{
 }
 
 .my_class-icon{
-    width: 30px;
-}
-
-.my_nav-text{
-    display: none;
+    width: 25px;
 }
 
 .fa-bell{
@@ -35,12 +32,12 @@ main{
 }
 
 @media screen and (min-width:768px) {
-    aside{
+    .my_side-bar{
         width: 150px;
     }
 
-    main{
-        width: calc(100% - 150px);
+    .my_main-content{
+        padding-left: 150px
     }
 
     .my_nav-text{
