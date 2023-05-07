@@ -19,8 +19,8 @@
     height: calc(100vh - 70px);
 }
 
-.my_logo-small{
-    width: 45px;
+.my_navbar-logo{
+    height: 50px;
 }
 
 .my_class-icon{
@@ -31,16 +31,12 @@
     color: #ff8c00;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     .my_side-bar{
         width: 150px;
     }
 
     .my_main-content{
         padding-left: 150px
-    }
-
-    .my_nav-text{
-        display: inline-block;
     }
 }
