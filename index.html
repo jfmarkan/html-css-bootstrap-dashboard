@@ -153,7 +153,6 @@
                 </header>
                 <div class="container-fluid py-4 bg-light">
                     <div class="row">
-                                                
                         <div class="col-12 col-lg-8">
                             <div class="row">
                                 <div class="col-12">
@@ -165,11 +164,11 @@
                                             <table class="table table-sm fs-6 text-center">
                                                 <thead>
                                                     <tr>
-                                                        <th scope="col" class="text-start col-4 col-md-6">Nome</th>
-                                                        <th scope="col" class="d-none d-md-table-cell col-md-2 col-lg-2">Data Inizio</th>
-                                                        <th scope="col" class="d-none d-md-table-cell col-md-1 col-lg-1">ROI</th>
-                                                        <th scope="col" class="col-4 col-md-1 col-lg-1">Stato</th>
-                                                        <th scope="col" class="col-4 col-md-2 col-lg-2">Azioni</th>
+                                                        <th scope="col" class="text-start width-auto">Nome</th>
+                                                        <th scope="col" class="d-none d-md-table-cell my_row-width">Data Inizio</th>
+                                                        <th scope="col" class="d-none d-md-table-cell my_row-width">ROI</th>
+                                                        <th scope="col" class="my_row-width">Stato</th>
+                                                        <th scope="col" class="my_row-width">Azioni</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -410,31 +409,31 @@
                 </div>
             </main>
         </div>
-        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <div class="row">
-                    <div class="col-12 col-lg-6 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <label for="formGroupExampleInput" class="form-label text-start">Nome</label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                     </div>
-                    <div class="col-12 col-lg-6 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <label for="formGroupExampleInput2" class="form-label">Cognome</label>
                         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-6 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <label for="formGroupExampleInput" class="form-label text-start">Email</label>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">@</span>
                             <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <label for="formGroupExampleInput2" class="form-label">Password</label>
                         <input type="password" class="form-control" id="formGroupExampleInput2">
                     </div>
@@ -446,11 +445,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-6 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <label for="formGroupExampleInput" class="form-label text-start">Città</label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                     </div>
-                    <div class="col-12 col-lg-4 mb-3">
+                    <div class="col-12 col-md-4 mb-3">
                         <label for="formGroupExampleInput" class="form-label text-start">Stato</label>
                         <select class="form-select form-select" aria-label=".form-select example">
                             <option selected>Italia</option>
@@ -459,7 +458,7 @@
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="col-12 col-lg-2 mb-3">
+                    <div class="col-12 col-md-2 mb-3">
                         <label for="formGroupExampleInput2" class="form-label">CAP</label>
                         <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="">
                     </div>

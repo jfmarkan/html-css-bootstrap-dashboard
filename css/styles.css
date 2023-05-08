@@ -35,6 +35,10 @@ aside ul li:hover{
     color: #ff8c00;
 }
 
+.my_row-width{
+    width: 6rem;
+}
+
 @media screen and (min-width:992px) {
     .my_side-bar{
         width: 150px;
