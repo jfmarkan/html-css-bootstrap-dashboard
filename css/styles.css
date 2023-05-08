@@ -1,3 +1,7 @@
+aside ul li:hover{
+    background-color: #c1c1c1;
+}
+
 .my_page-header{
     height: 70px;
     z-index: 5;
