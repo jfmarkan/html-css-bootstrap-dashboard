@@ -52,6 +52,10 @@ aside ul li:hover{
     width: 100%;
 }
 
+#my_new-student{
+    text-align: left;
+}
+
 .my_search{
     width: 95%;
 }
@@ -71,6 +75,11 @@ ul li{
 
     #offcanvasRight{
         width: 50%;
+    }
+
+    #my_new-student{
+        text-align: right;
+        padding-right: 2rem;
     }
 
 }
