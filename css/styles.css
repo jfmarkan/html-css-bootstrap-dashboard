@@ -29,6 +29,7 @@ aside ul li:hover{
 
 .my_class-icon{
     width: 25px;
+    border-radius: 50%;
 }
 
 .fa-bell{
@@ -39,6 +40,14 @@ aside ul li:hover{
     width: 6rem;
 }
 
+.my_table tr:hover{
+    background-color: #e4e4e4;
+}
+
+#offcanvasRight{
+    width: 100%;
+}
+
 @media screen and (min-width:992px) {
     .my_side-bar{
         width: 150px;
@@ -46,5 +55,9 @@ aside ul li:hover{
 
     .my_main-content{
         padding-left: 150px
+    }
+
+    #offcanvasRight{
+        width: 50%;
     }
 }
