@@ -48,6 +48,18 @@ aside ul li:hover{
     width: 100%;
 }
 
+#searchField{
+    width: 100%;
+}
+
+.my_search{
+    width: 95%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
 @media screen and (min-width:992px) {
     .my_side-bar{
         width: 150px;
@@ -60,4 +72,5 @@ aside ul li:hover{
     #offcanvasRight{
         width: 50%;
     }
+
 }
